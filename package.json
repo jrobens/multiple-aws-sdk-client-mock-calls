@@ -1,0 +1,32 @@
+{
+  "name": "multiple-aws-sdk-client-mock-calls",
+  "version": "1.0.0",
+  "description": "test multiple tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --useStderr --watch --config=jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrobens/multiple-aws-sdk-client-mock-calls.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "jrobens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrobens/multiple-aws-sdk-client-mock-calls/issues"
+  },
+  "homepage": "https://github.com/jrobens/multiple-aws-sdk-client-mock-calls#readme",
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "aws-sdk-client-mock": "^2.0.0",
+    "jest": "^29.1.0",
+    "ts-jest": "^29.0.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.180.0",
+    "@aws-sdk/util-dynamodb": "^3.180.0"
+  }
+}
